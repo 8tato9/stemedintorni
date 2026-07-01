@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programmazione a Blocchi - Condivisione lavori scolastici</title>
+
+    <!-- Font istituzionale PA -->
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Titillium Web', sans-serif;
+            background-color: #f4f7f9;
+            color: #333;
+        }
+
+        /* MENU SUPERIORE */
+        nav {
+            background-color: #0066cc;
+            color: white;
+            padding: 0 20px;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            z-index: 1000;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            position: relative;
+            margin-right: 30px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            padding: 10px;
+            display: block;
+        }
+
+        nav ul li a:hover {
+            background-color: #004c99;
+            border-radius: 4px;
+        }
+
+        /* DROPDOWN */
+        nav ul li ul {
+            display: none;
+            position: absolute;
+            background-color: #0066cc;
+            padding: 0;
+            margin: 0;
+            top: 40px;
+            left: 0;
+            min-width: 200px;
+            border-radius: 4px;
+        }
+
+        nav ul li:hover ul {
+            display: block;
+        }
+
+        nav ul li ul li {
+            margin: 0;
+        }
+
+        nav ul li ul li a {
+            padding: 10px;
+        }
+
+        /* CONTENUTO PRINCIPALE */
+        main {
+            padding: 100px 20px 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        h1 {
+            color: #0066cc;
+            font-size: 32px;
+            font-weight: 600;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- MENU -->
+    <nav>
+        <ul>
+            <li><a href="index.html">🏚️Home</a></li>
+		
+
+	    <li>
+		<a href="#">🧑‍💻Software</a> 
+	    <ul>
+                    <li><a href="mblock.html">🐼 mBlock</a></li>
+                    <li><a href="scratch.html">🐈 Scratch</a></li>
+            </ul>
+	
+	    </li>
+
+            <li>
+                <a href="#">Programmazione a blocchi</a>
+                <ul>
+                    <li><a href="elementare.html">🚌Scuola Elementare</a></li>
+                    <li><a href="media.html">🏫Scuola Media</a></li>
+                    <li><a href="superiore.html">👩‍🏫Scuola Superiore</a></li>
+                </ul>
+            </li>
+
+            <li><a href="#">Contatti</a></li>
+        </ul>
+    </nav>
+
+    <!-- CONTENUTO -->
+    <main>
+        <h1>Condivisione dei lavori di Programmazione a Blocchi</h1>
+        <p>
+            Questo sito raccoglie e condivide i lavori di programmazione a blocchi 
+            realizzati dagli studenti della scuola primaria, secondaria di primo grado 
+            e secondaria di secondo grado.  
+        </p>
+
+        <p>
+            L’obiettivo è fornire uno spazio aperto dove docenti, studenti e appassionati 
+            possano trovare esempi, idee e materiali utili per attività didattiche, 
+            laboratori e percorsi STEM.
+        </p>
+
+        <p>
+            Seleziona dal menu in alto il livello scolastico per visualizzare i progetti.
+        </p>
+    </main>
+
+</body>
+</html>
